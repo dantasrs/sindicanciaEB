@@ -1,14 +1,14 @@
 # Sindicância EB em LaTeX
 
-[![Compilação LaTeX](https://github.com/rafazildod/sindicanciaEB/actions/workflows/latex.yml/badge.svg)](https://github.com/rafazildod/sindicanciaEB/actions/workflows/latex.yml)
+[![Compilação LaTeX](https://github.com/dantasrs/sindicanciaEB/actions/workflows/latex.yml/badge.svg)](https://github.com/dantasrs/sindicanciaEB/actions/workflows/latex.yml)
 [![Licença MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-blue.svg)](LICENSE)
-[![Última versão](https://img.shields.io/github/v/release/rafazildod/sindicanciaEB)](https://github.com/rafazildod/sindicanciaEB/releases/latest)
+[![Última versão](https://img.shields.io/github/v/release/dantasrs/sindicanciaEB)](https://github.com/dantasrs/sindicanciaEB/releases/latest)
 
 Modelos em LaTeX para produzir e padronizar peças de sindicância no âmbito do Exército Brasileiro, com base nos anexos da **EB10-IG-09.001 (2ª edição, 2024)**.
 
 O projeto separa o conteúdo da formatação: o usuário preenche arquivos simples na pasta `dados/`, escolhe as peças no `main.tex` e compila um PDF. Não é necessário alterar os modelos nem a classe LaTeX para o uso normal.
 
-[Consultar o PDF demonstrativo completo](https://github.com/rafazildod/sindicanciaEB/releases/latest/download/sindicanciaEB-demo.pdf), produzido somente com dados fictícios e com um exemplo de cada anexo, do A ao AA.
+[Consultar o PDF demonstrativo completo](https://github.com/dantasrs/sindicanciaEB/releases/latest/download/sindicanciaEB-demo.pdf), produzido somente com dados fictícios e com um exemplo de cada anexo, do A ao AA.
 
 > [!IMPORTANT]
 > Este é um projeto independente e não oficial. Ele auxilia na preparação material dos documentos, mas não substitui a norma vigente, a orientação da autoridade competente nem a revisão jurídica e administrativa de cada caso.
@@ -59,7 +59,7 @@ A classe usa `fontspec` e, por isso, **não funciona com pdfLaTeX**. Times New R
 Se você usa Git:
 
 ```bash
-git clone https://github.com/rafazildod/sindicanciaEB.git
+git clone https://github.com/dantasrs/sindicanciaEB.git
 cd sindicanciaEB
 ```
 
